@@ -74,6 +74,8 @@ header nav ul li {
 .float-left {
     float: left;
     margin-right: 25px;
+    max-width: 100%;
+    height: auto;
 }
 
 .float-right {
@@ -106,6 +108,7 @@ h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
+
 
 /* Work */
 
@@ -154,8 +157,9 @@ h2 {
     }
 }
 
+/* Responsive layout of text to stay flexible */
 @media screen and (max-width: 900px) {
-    .intro { 
+    .about-me { 
     flex-shrink: 100% 
     }
 }
@@ -173,12 +177,14 @@ footer {
 
 footer h2 {
     font-size: 20px;
+    color: whitesmoke
 }
 
-.links {
-    list-style-type: lower-greek;
-    color: grey;
+.footer {
+    color:black;
     text-align: center;
-    font-family: fantasy;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    list-style-type: initial;
+    background-color: black;
 
 }
