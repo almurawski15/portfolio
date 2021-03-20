@@ -1,7 +1,7 @@
 # portfolio
 
 ## My Personal Portfolio Assignment 
-![portfolio](./assets/portfolio snap.PNG)
+![portfolio](./assets/portfoliosnap.PNG)
 
 
 
